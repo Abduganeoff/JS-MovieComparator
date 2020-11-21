@@ -47,7 +47,7 @@ const createAutoComplete = ({
         }
     }
 
-    input.addEventListener('input', debouncer(onInput, 1000));
+    input.addEventListener('input', debouncer(onInput, 500));
 
     document.addEventListener('click', event => {
 
